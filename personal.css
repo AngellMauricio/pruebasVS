@@ -1,0 +1,40 @@
+
+.contenedor{
+   display: flex;
+   align-items: center;
+  
+   
+}
+.imagenPersonal{
+
+ width: 400px;
+ height: 200px;
+ margin-left: 50px;
+ margin-bottom: 10;
+ 
+}
+.imagenPersonal2{
+width: 200;
+ height: 400px;
+ margin-right: 50px;
+ margin-top: 150PX;
+ margin-left: 400px;
+ 
+}
+.btn{
+    background-color: coral;
+    font-size: large;
+    margin-top: 10px;
+    border: 25px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 50%;
+}
+.footer{
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    bottom: 10;
+    width: 67%;
+
+}

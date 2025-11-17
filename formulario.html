@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <form action="guardarC.php" method="POST" class="card">
+      <h2>Registro de Usuario</h2>
+
+      <label>Nombre:</label>
+      <input type="text" name="nombre" maxlength="50" required>
+
+      <label>Apellido Paterno:</label>
+      <input type="text" name="ap" maxlength="50" required>
+
+      <label>Apellido Materno:</label>
+      <input type="text" name
+      
+      ="am" maxlength="50">
+
+      <label>Teléfono:</label>
+      <input type="tel" name="telefono" maxlength="10" required>
+
+      <label>Correo Electrónico:</label>
+      <input type="email" name="email" maxlength="100" required>
+
+      <label>Contraseña:</label>
+      <input type="password" name="pass" maxlength="100" required>
+
+      <label>Fecha de Nacimiento:</label>
+      <input type="date" name="nacimiento" required>
+
+      <label>Sexo:</label>
+      <select name="sexo" required>
+        <option value="">Seleccione...</option>
+        <option value="M">Masculino</option>
+        <option value="F">Femenino</option>
+      </select>
+
+      <label>Dirección:</label>
+      <input type="text" name="direccion" maxlength="50">
+
+      <label>Colonia:</label>
+      <input type="text" name="colonia" maxlength="50">
+
+      <label>Calle:</label>
+      <input type="text" name="calle" maxlength="50">
+
+      <label>Número:</label>
+      <input type="number" name="numero" min="0">
+
+      <label>Municipio:</label>
+      <input type="text" name="municipio" maxlength="50">
+
+      <input type="submit" value="Guardar">
+    </form>
+  </main>
+</body>
+</html>
